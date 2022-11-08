@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="TUT">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!---->
+
+  <link rel="stylesheet" href="assets/css/style_Piepag.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="assets/img/tut.ico">
+  
+  <title>TUT</title>
+</head>
+<body style="background-color:#ffffff;">
+</body>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container">
+      <a class="navbar-brand text-light font-weight-bold" href="index.html"><img src="assets/img/tut.png" alt="#">TUT</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon ion-md-menu lead text-light"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mr-2">
+            <a class="nav-link text-light" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link text-light" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link text-light" href="#">Ayuda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light btn btn-primary py-1" href="login.html"  >Inicia sesion</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+
+  <section id="hero-container" class="position-relative text-light">
+    <div id="hero-background"></div>
+      <div id="hero-content" class="container h-100">
+        <div class="row no-gutters h-100 d-flex">
+          <div id="hero-text" class="col-md-6 align-self-center">
+            <h1 class="display-1 font-weight-bold mb-4" >BIENVENIDO</h1>
+            <p class="lead mb-5">Alcanza tus limites y se el mejor de la clase
+            </p>
+            <a href="#" class="btn btn-primary">Registrate</a>
+          </div>
+         <div class="col-md-6 img-container align-self-center h-100">
+            <img src="assets/img/Movil_TUT_3D.png" id="hero-img" class="position-absolute">
+            <img src="assets/img/lines.svg" id="lines" class="spin position-absolute">
+          </div>
+        </div>
+      </div>
+      
+      
+
+        <!--pie de pagina-->
+        
+          <div class="footer-content">
+              <h3 class="display-1 font-weight-bold mb-4">TUT</h3>
+              <p>Buscamos reforzar su conocimiento, en busca de una mejor calidad academica!</p>
+              <ul class="socials">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+              </ul>
+          </div>
+          <div class="footer-bottom">
+              <p>copyright &copy;2021 TUT. designed by <span>tut.co</span></p>
+          </div>
+      
+  </section>
+
+  
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+
+<script>
+  window.onload = function () {
+    setTimeout(function () {
+    document.getElementById('hero-background').style.width = '100%';
+    }, 1500);
+    setTimeout(function () {
+      document.getElementById('hero-text').style.opacity = '1';
+    }, 2500);
+    setTimeout(function () {
+      document.getElementById('hero-img').style.opacity = '1';
+    }, 3500);
+    setTimeout(function () {
+      document.getElementById('lines').style.opacity = '1';
+    },4500);
+  };
+</script>
+
+</html>
